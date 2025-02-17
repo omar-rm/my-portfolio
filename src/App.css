@@ -15,8 +15,48 @@
   font-weight: 400;
 }
 
+/* Project Section*/
+.project{
+  width: 100vh;
+  height: auto;
+  padding: 1em;
 
+}
+.project-img{
+  width: 55%;
+  border: 1 px solid purple;
+}
+.project-text{
+  border: 1px solid grey;
+height: 30em;
+overflow:hidden;
+width: 35%;
+}
+.project-tittle h1{
+  letter-spacing: 10px;
+ 
+}
+.project-description p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+.project-technologies, .project-description, .project-title{
+  margin:  1em 0;
+  width: 100%;
+}
+.project-technologies span{
+  overflow-wrap: break-word;
+  white-space: initial;
+margin: 0 10px;
+  padding: 0 5px;
+  border-bottom:  1px solid  white;
+}
+.project-technologies span:hover{
+ background-color:  salmon; 
+ color: black;
+ border-bottom:  none;
 
+}
 /* Default CSS*/
 *{
   margin: 0;
