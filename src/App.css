@@ -8,8 +8,13 @@
 
 */
 :root{
-  --bg-main: #2A004E;
+ 
+  --bg-main: #11011f;
+  --bg-main2: #EBEAFF;
+  --text-ligthBlue: #9694FF;
+  --text-blue:#3D3BF3;
   --text-main: #F14A00;
+  --text-red: #FF2929;
 }
 
 
@@ -109,7 +114,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background:var(--bg-main) !important;
+  background:var(--bg-main2) !important;
   font-family: 'Centra', sans-serif !important;
 }
 
