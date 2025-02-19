@@ -1,9 +1,9 @@
 export const Components = () => {
     return (
         <section className="projects-box">
-            <div className="project">
+            <div className="project-1">
                 <div className="project-img">
-                    <img></img>
+                    project image
                 </div>
                 <div className="project-text">
                     <div className="project-tittle">
@@ -17,6 +17,9 @@ export const Components = () => {
                         <span>React</span>
                         <span>SQL</span>
                         <span>MySQL</span>
+                        <span>JavaScript</span>
+                        <span>Java</span>
+                        <span>Github</span>
                         <span>JavaScript</span>
                         <span>Java</span>
                         <span>Github</span>
